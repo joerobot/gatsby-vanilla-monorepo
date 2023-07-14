@@ -1,0 +1,15 @@
+{
+  "name": "gatsby-vanilla-monorepo",
+  "version": "0.0.0",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {},
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
+}

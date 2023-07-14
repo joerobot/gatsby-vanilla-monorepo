@@ -1,0 +1,26 @@
+{
+  "name": "www",
+  "version": "1.0.0",
+  "private": true,
+  "description": "www",
+  "author": "Joe Reed",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@vanilla-extract/css": "^1.12.0",
+    "@vanilla-extract/webpack-plugin": "^2.2.0",
+    "design-system": "*",
+    "gatsby": "^5.11.0",
+    "gatsby-plugin-vanilla-extract": "^4.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
