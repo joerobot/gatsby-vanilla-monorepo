@@ -1,5 +1,5 @@
 import * as React from "react"
-import {theme, Button} from "design-system"
+import {theme} from "design-system"
 import "design-system/design-system.css"
 
 
@@ -14,7 +14,7 @@ const IndexPage = () => {
           Congratulations
         </h1>
       </Header>
-      <Button>Button</Button>
+      <button>Button</button>
     </main>
   )
 }
